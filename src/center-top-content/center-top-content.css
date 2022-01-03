@@ -1,0 +1,62 @@
+.center-top-content {
+    width: 100%;
+    height: 200px;
+    padding-top: 40px;
+}
+    
+.stars-wrapper {
+    display: flex;
+}
+        
+.fa-star {
+    color: #b7ce1f;
+    font-size: 13px;
+    margin: 2px 3px;
+}
+        
+.fa-star-half-alt {
+    margin: 2px 3px;
+    color: #b7ce1f;
+    font-size: 13px;
+}
+
+.feed-info-portfolio-icons {
+    display: flex;
+    margin-top: 30px;
+}
+
+.feed-wrapper {
+    text-align: center;
+    margin-right: 40px;
+}
+
+.red {
+    font-size: 25px;
+    margin-bottom: 6px;
+    color: #e44d3a;
+}
+            
+.center-top-icon {
+    color: #6F6E6C;
+    font-size: 25px;
+    margin-bottom: 6px;
+}
+            
+.feed {
+    color: #6F6E6C;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.feed-red {
+    color: #e44d3a;
+}
+
+.facebookinc {
+    margin-bottom: 9px;
+}
+
+.established {
+    margin-right: 15px; 
+    color: #b2b2b2;
+}

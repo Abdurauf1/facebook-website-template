@@ -1,0 +1,76 @@
+.suggestions {
+    height: 45px; 
+    background-color: #fff; 
+    padding: 13px; 
+    display: flex; 
+    justify-content: space-between;
+}
+
+.fa-ellipsis-v {
+    cursor: pointer; color: #B2B2B2;
+}
+
+.left-content-footer {
+    margin-top: 2px;
+    background-color: #fff;
+    padding: 15px 13px;
+}
+    
+.sug-person-wrapper {
+    display: flex;
+    width: 100%;
+    height: 45px;
+    background-color: #fff;
+    margin-bottom: 6px;
+    position: relative;
+}
+        
+.person-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+        
+.name-wrapper {
+    margin-left: 6px;
+}
+            
+.footer-name {
+    font-size: 12px;
+    font-weight: bold;
+    color: #000;
+    letter-spacing: .3px;
+}
+            
+.job {
+    font-size: 12px;
+    color: #6F6E6C;
+    letter-spacing: .3px;
+    margin-bottom: 1px;
+}
+        
+.icon-border {
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    padding-top: 7px;
+    border: 1px solid #efefef;
+    cursor: pointer;
+    position: absolute;
+    left: 174px;
+}
+            
+.footer-plus-icon {
+    color: #6F6E6C;
+}
+
+.viewmore {
+    margin-bottom: 15px; 
+    margin-top: 20px; 
+    margin-left: 70px; 
+    text-align: center; 
+    font-weight: bold; 
+    font-size: 12px; 
+    color: #e44d3a;
+    font-weight: bold;
+}

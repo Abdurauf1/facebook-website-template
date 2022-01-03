@@ -1,0 +1,58 @@
+.links-wrapper {
+    margin-bottom: 20px;
+}
+    
+.link {
+    display: flex;
+    width: 100%;
+    height: 45px;
+    padding: 15px 13px;
+    background-color: #fff;
+    margin-bottom: 2px;
+    font-size: 13px;
+}
+
+.link-text {
+    color: #59a8fb;
+    margin-left: 7px;
+}
+
+.fa-globe-americas {
+    color: #59A8FB;
+    font-size: 16px;
+}
+
+.fa-facebook-square {
+    color: #3B5999; 
+    font-size: 16px;
+}
+
+.fa-twitter {
+    color: #1DA1F2; 
+    font-size: 16px;
+}
+
+.fa-google-plus-square {
+    color: #e44d3a; 
+    font-size: 16px;
+}
+
+.fa-behance-square {
+    color: #1769FF; 
+    font-size: 16px;
+}
+
+.fa-pinterest {
+    color: #C92E2C; 
+    font-size: 16px;
+}
+
+.fa-instagram {
+    color: #8E7BD1; 
+    font-size: 16px;
+}
+
+.fa-youtube-square {
+    color: #C92E2C; 
+    font-size: 16px;
+}
