@@ -1,6 +1,6 @@
 import React from "react"
 import "./navbar.css"
-import navPhoto from"./images/nav-about-img.jpg"
+import navPhoto from "./images/nav-about-img.jpg"
 
 class Navbar extends React.Component {
     constructor(props) {
@@ -14,7 +14,7 @@ class Navbar extends React.Component {
                 <div className="container">
                     <i className="fab fa-wordpress-simple logo"></i>
                     <div className="input-icon-wrapper">
-                        <input type="text" className="nav-input" placeholder="Search..."/>
+                        <input type="text" className="nav-input" placeholder="Search..." />
                         <div className="search-icon-wrapper">
                             <i className="fas fa-search search-icon"></i>
                         </div>
@@ -51,15 +51,15 @@ class Navbar extends React.Component {
                         </a>
                     </div>
 
-            <div className="nav-about">
-                <img src={navPhoto} alt="error" class="nav-about-img"/>
-                <p className="nav-about-name">john</p>
-                <button className="drop-down">
-                    <i className="fas fa-angle-down nav-about-down-icon"></i>
-                </button>
-            </div>
-        </div>
-    </nav>
+                    <div className="nav-about">
+                        <img src={navPhoto} alt="error" class="nav-about-img" />
+                        <p className="nav-about-name">john</p>
+                        <button className="drop-down">
+                            <i className="fas fa-angle-down nav-about-down-icon"></i>
+                        </button>
+                    </div>
+                </div>
+            </nav>
         )
     }
 }
