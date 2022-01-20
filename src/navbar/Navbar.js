@@ -3,11 +3,6 @@ import "./navbar.css"
 import navPhoto from "./images/nav-about-img.jpg"
 
 class Navbar extends React.Component {
-    constructor(props) {
-        super(props)
-        this.state = {};
-    }
-
     render() {
         return (
             <nav>

@@ -2,11 +2,6 @@ import React from "react"
 import "./left-content-top.css"
 
 class LeftContentTop extends React.Component {
-    constructor(props) {
-        super(props)
-        this.state = {};
-    }
-
     render() {
         return (
             <div className="left-content">
@@ -28,11 +23,6 @@ class LeftContentTop extends React.Component {
             </div>
         )
     }
-    
-
-
 }
 
 export default LeftContentTop
-
-

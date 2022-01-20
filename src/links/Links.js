@@ -2,11 +2,6 @@ import React from "react"
 import "./links.css"
 
 class Links extends React.Component {
-    constructor(props) {
-        super(props)
-        this.state = {};
-    }
-
     render() {
         return (
             <div className="links-wrapper">

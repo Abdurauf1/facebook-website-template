@@ -5,22 +5,17 @@ import person2 from "./images/person2.jpg"
 import person3 from "./images/person3.jpg"
 
 class LeftFooter extends React.Component {
-    constructor(props) {
-        super(props)
-        this.state = {}
-    }
-
     render() {
         return (
             <main>
-                    <div className="suggestions">
-                        <h4>Suggestions</h4>
-                        <i className="fas fa-ellipsis-v"></i>
-                    </div>
+                <div className="suggestions">
+                    <h4>Suggestions</h4>
+                    <i className="fas fa-ellipsis-v"></i>
+                </div>
 
-                    <div className="left-content-footer">
-                        <div className="sug-person-wrapper">
-                            <img className="person-img" src={person1} alt="error"/>
+                <div className="left-content-footer">
+                    <div className="sug-person-wrapper">
+                        <img className="person-img" src={person1} alt="error" />
                         <div className="name-wrapper">
                             <a href="#" className="footer-name">Jessica William</a>
                             <p className="job">Graphic Designer</p>
@@ -42,7 +37,7 @@ class LeftFooter extends React.Component {
                     </div>
 
                     <div className="sug-person-wrapper">
-                        <img className="person-img" src={person3} alt=""/>
+                        <img className="person-img" src={person3} alt="" />
                         <div className="name-wrapper">
                             <a href="#" className="footer-name">Poonam</a>
                             <p className="job">Wordpress Developer</p>
@@ -53,7 +48,7 @@ class LeftFooter extends React.Component {
                     </div>
 
                     <div className="sug-person-wrapper">
-                        <img className="person-img" src={person1} alt=""/>
+                        <img className="person-img" src={person1} alt="" />
                         <div className="name-wrapper">
                             <a href="#" className="footer-name">Bill Gates</a>
                             <p className="job">C & C++ Developer</p>
@@ -64,7 +59,7 @@ class LeftFooter extends React.Component {
                     </div>
 
                     <div className="sug-person-wrapper">
-                        <img className="person-img" src={person2} alt=""/>
+                        <img className="person-img" src={person2} alt="" />
                         <div className="name-wrapper">
                             <a href="#" className="footer-name">Jessica William</a>
                             <p className="job">Graphic Designer</p>
@@ -75,7 +70,7 @@ class LeftFooter extends React.Component {
                     </div>
 
                     <div className="sug-person-wrapper">
-                        <img className="person-img" src={person3} alt=""/>
+                        <img className="person-img" src={person3} alt="" />
                         <div className="name-wrapper">
                             <a href="#" className="footer-name">John Doe</a>
                             <p className="job">Graphic Designer</p>
@@ -90,6 +85,5 @@ class LeftFooter extends React.Component {
         )
     }
 }
-
 
 export default LeftFooter
