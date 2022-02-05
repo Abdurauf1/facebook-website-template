@@ -18,6 +18,7 @@ nav {
     border-radius: 50%;
     cursor: pointer;
 }
+
 .input-icon-wrapper {
     width: 250px;
     height: 36px;
@@ -98,7 +99,11 @@ nav {
     padding-top: 7px;
 }
 
-@media only screen and (max-width: 480px) {
+.show-nav-btn {
+    
+}
+
+@media only screen and (max-width: 360px) {
     nav {
         display: none;
     }
