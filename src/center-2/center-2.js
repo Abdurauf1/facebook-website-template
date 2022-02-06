@@ -64,7 +64,7 @@ class Center2 extends React.Component {
                     mollitia vitae similique eos voluptatum, asperiores quam nostrum itaque...
                 </p>
 
-                <a href="#" className="viewmorebtn">view more</a>
+                <a href="/" className="viewmorebtn">view more</a>
 
                 <div className="skillname-wrapper">
                     <button className="skill-btn">HTML</button>

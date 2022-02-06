@@ -74,3 +74,9 @@
     color: #e44d3a;
     font-weight: bold;
 }
+
+@media (max-width: 500px) {
+    main {
+        display: none;
+    }
+}

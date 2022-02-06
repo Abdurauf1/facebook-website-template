@@ -45,3 +45,9 @@
     width: 100%;
     height: 100%;
 }
+
+@media (max-width: 500px) {
+    .right-content-wrapper {
+        display: none;
+    }
+}

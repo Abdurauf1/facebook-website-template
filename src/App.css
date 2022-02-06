@@ -42,3 +42,9 @@ a {
 .center-content-wrapper {
     width: 48%;
 }
+
+@media (max-width: 500px) {
+    .facebook-logo {
+        display: none;
+    }
+}

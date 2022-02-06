@@ -6,7 +6,6 @@ class Navbar extends React.Component {
     render() {
         return (
             <>
-                {/* <button className="show-nav-btn"></button> */}
                 <nav>
                     <div className="container">
                         <i className="fab fa-wordpress-simple logo"></i>

@@ -6,7 +6,7 @@
     padding: 125px 13px 13px 13px;
     margin-bottom: 2px;
 }
-    
+
 .follow-button {
     width: 100px;
     height: 37px;
@@ -19,7 +19,7 @@
     margin-bottom: 30px;
     cursor: pointer;
 }
-        
+
 .plus-icon {
     margin-right: 6px;
 }
@@ -32,12 +32,12 @@
     font-size: 18px;
     margin-bottom: 35px;
 }
-   
+
 .following {
     margin-right: 5px;
     font-size: 17px;
 }
-            
+
 .following-text {
     margin-bottom: 10px;
     color: #6F6E6C;
@@ -59,4 +59,10 @@
 
 .following-number {
     font-weight: bold;
+}
+
+@media (max-width: 500px) {
+    .left-content {
+        display: none;
+    }
 }

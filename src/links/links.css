@@ -56,3 +56,9 @@
     color: #C92E2C; 
     font-size: 16px;
 }
+
+@media (max-width: 500px) {
+    .links-wrapper {
+        display: none;
+    }
+}

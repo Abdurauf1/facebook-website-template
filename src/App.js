@@ -26,7 +26,6 @@ function App() {
           <Links />
           <LeftFooter />
         </div>
-
         <div className="center-content-wrapper">
           <CenterTop />
           <Center1 />
