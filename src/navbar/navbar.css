@@ -99,9 +99,25 @@ nav {
     padding-top: 7px;
 }
 
+.toggle-nav {
+    border: none;
+    position: absolute;
+    right: 15px;
+    top: 20px;
+    background-color: transparent;
+    display: none;
+}
 
-@media (max-width: 500px) {
+.fa-bars {
+    color: #fff;
+    font-size: 15px;
+}
+
+@media (max-width: 360px) {
     nav {
-        display: none;  
+        display: none;
+    }
+    .toggle-nav {
+        display: block;
     }
 }

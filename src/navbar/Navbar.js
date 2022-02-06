@@ -6,6 +6,9 @@ class Navbar extends React.Component {
     render() {
         return (
             <>
+                <button className="toggle-nav">
+                    <i className="fas fa-bars"></i>
+                </button>
                 <nav>
                     <div className="container">
                         <i className="fab fa-wordpress-simple logo"></i>
