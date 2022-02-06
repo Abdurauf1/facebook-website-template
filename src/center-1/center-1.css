@@ -217,7 +217,10 @@
 }
 
 @media (max-width: 500px) {
+    .container {
+        
+    }
     .center-content {
-        display: none;
+        width: 50%;
     }
 }
